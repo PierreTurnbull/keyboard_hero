@@ -21,7 +21,7 @@ var restartText = [
     [
         "Do you even try?",
         "I feel bad for you."
-    ]
+    ],
     [
         "Not that bad...",
         "But my grandma does better."
