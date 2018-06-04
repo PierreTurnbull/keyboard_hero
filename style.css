@@ -6,10 +6,43 @@
     overflow: hidden;
 }
 
-.game_score {
+.game_score, .game_lives, .game_restart {
     margin: 15px;
     font-size: 30px;
     font-family: Roboto;
+}
+
+.game_restart {
+    display: none;
+    margin: 50px auto;
+    border: 2px dashed red;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+    background-color: #F0D0D0;
+}
+
+.game_restart_subText {
+    display: block;
+    font-size: 15px;
+    color: #211;
+}
+
+.game_restart_btn {
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    margin: 20px auto 0;
+    background-color: #F09090;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.game_restart_btn:hover {
+    background-color: #F0A8A8;
 }
 
 .game_limit {
